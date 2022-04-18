@@ -21,10 +21,5 @@ function compute()
     var future = parseInt(tahun1, 10) + parseInt(tahun, 10);
     var interest = jumlah * tahun * rate / 100;
     var result = "If you deposit <mark>" + jumlah + "</mark>,<br> at an interest rate of <mark>" + rate + "</mark> % <br> You will receive an amount of <mark>" + interest + ",</mark><br> in the year <mark>" + future + "</mark>";
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("hasil").innerHTML = result;
 }
-
-function showVal(newVal) { 
-    document.getElementById("hasil").innerHTML = newVal + '%';
-}
-        
